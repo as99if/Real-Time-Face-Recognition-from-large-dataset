@@ -5,14 +5,14 @@ requirement:
   - python
   - dlib (ubuntu 16.04)
   
-      --------------------------------------------------------
+      -----------------------------------------
        - apt-get install python-setuptools 
        - git clone https://github.com/davisking/dlib.git
        - cd dlib
          mkdir build; cd build; cmake ..; cmake --build .
        - cd ..
          python3 setup.py install
-      --------------------------------------------------------
+      ------------------------------------------
   - if error installing dlib (ubuntu 14.04)
        -----------------------------------------
        - apt-get install -y --fix-missing \
@@ -37,8 +37,7 @@ requirement:
           software-properties-common \
           zip \
           && apt-get clean && rm -rf /tmp/* /var/tmp/*
-        --------------------------------------------
-    
+           
   
         ---------------------------------------------------------------------------------------
        - cd ~ && \
