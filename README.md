@@ -56,6 +56,10 @@ requirement:
        - pip install scikit-learn
        - pip install numpy
        - pip install scipy
+       
+  - openCV
+       - pip install opencv-python
+       - pip install opencv-contrib-python
       
       
       
