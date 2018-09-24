@@ -57,5 +57,5 @@ requirement:
       
       
  Thanks to - 
-  https://github.com/ageitgey/face_recognition
-  http://scikit-learn.org/stable/
+      - https://github.com/ageitgey/face_recognition
+      - http://scikit-learn.org/stable/
