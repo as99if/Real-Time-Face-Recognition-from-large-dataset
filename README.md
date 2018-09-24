@@ -12,10 +12,10 @@ requirement:
          mkdir build; cd build; cmake ..; cmake --build .
        - cd ..
          python3 setup.py install
-      ------------------------------------------------------
+      --------------------------------------------------------
   - if error installing dlib (ubuntu 14.04)
-        ---------------------------------------
-        - apt-get install -y --fix-missing \
+       -----------------------------------------
+       - apt-get install -y --fix-missing \
           build-essential \
           cmake \
           gfortran \
@@ -41,19 +41,19 @@ requirement:
     
   
         ---------------------------------------------------------------------------------------
-      - cd ~ && \
-        mkdir -p dlib && \
-        git clone -b 'v19.9' --single-branch https://github.com/davisking/dlib.git dlib/ && \
-        cd  dlib/ && \
-        python3 setup.py install --yes USE_AVX_INSTRUCTIONS
+       - cd ~ && \
+         mkdir -p dlib && \
+         git clone -b 'v19.9' --single-branch https://github.com/davisking/dlib.git dlib/ && \
+         cd  dlib/ && \
+         python3 setup.py install --yes USE_AVX_INSTRUCTIONS
         ----------------------------------------------------------------------------------------
   - face_recognition 
    
-      - pip3 install face_recognition  or  pip install face_recognition
+       - pip3 install face_recognition  or  pip install face_recognition
    
-      - pip install scikit-learn
-      - pip install numpy
-      - pip install scipy
+       - pip install scikit-learn
+       - pip install numpy
+       - pip install scipy
       
       
       
