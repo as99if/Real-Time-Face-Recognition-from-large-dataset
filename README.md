@@ -6,17 +6,17 @@ requirement:
   - dlib (ubuntu 16.04)
   RUN in terminal
       --------------------------------------------------------
-      $ apt-get install python-setuptools
-      $ git clone https://github.com/davisking/dlib.git
-      $ cd dlib
-      $ mkdir build; cd build; cmake ..; cmake --build .
-      $ cd ..
-      $ python3 setup.py install
+       apt-get install python-setuptools 
+       git clone https://github.com/davisking/dlib.git
+       cd dlib
+       mkdir build; cd build; cmake ..; cmake --build .
+       cd ..
+       python3 setup.py install
       ------------------------------------------------------
     if error (ubuntu 14.04)
   RUN in terminal
         ---------------------------------------
-      $ apt-get install -y --fix-missing \
+        apt-get install -y --fix-missing \
         build-essential \
         cmake \
         gfortran \
