@@ -4,12 +4,12 @@ requirement:
   - ubuntu
   - python
   - dlib (ubuntu 16.04)
-    $apt-get install python-setuptools
-    $ git clone https://github.com/davisking/dlib.git
-    $ cd dlib
-      mkdir build; cd build; cmake ..; cmake --build .
-    $ cd ..
-      python3 setup.py install
+  RUN $ apt-get install python-setuptools
+      $ git clone https://github.com/davisking/dlib.git
+      $ cd dlib
+      $ mkdir build; cd build; cmake ..; cmake --build .
+      $ cd ..
+      $ python3 setup.py install
     
     if error (ubuntu 14.04)
   RUN  $apt-get install -y --fix-missing \
