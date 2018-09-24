@@ -1,5 +1,8 @@
 # Real-Time-Face-Recognition-from-large-dataset
 Face Recognition from large dataset, using face_recognition, openCV (webcam, ipcam,video_file), dlib, sklearn
+
+tried using 
+ knn, svm, gaussianNB
 requirement:
   - ubuntu
   - python
