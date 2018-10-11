@@ -1,10 +1,22 @@
 # Real-Time-Face-Recognition-from-large-dataset
 Face Recognition from large dataset, using face_recognition, openCV (webcam, ipcam,video_file), dlib, sklearn
 
-create three folders in the project directory named "train", "test", "recognized"
-
+create three folders in the project directory named "train", with this structure to train image data 
+ - train
+      - face id (name)
+           - pic
+           - pic
+           - pic
+      - face id (name)
+           - pic
+           - pic
+           - pic
+       .........
+       
+       
 tried using 
  knn, svm, gaussianNB
+ 
 requirement:
   - ubuntu
   - python
