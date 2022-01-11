@@ -80,3 +80,6 @@ requirement:
  Thanks to
       - https://github.com/ageitgey/face_recognition
       - http://scikit-learn.org/stable/
+      
+      
+ There are better face_recognition libraries out there. This one is a bit old, and discontinued...
