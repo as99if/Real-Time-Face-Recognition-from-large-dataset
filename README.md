@@ -18,6 +18,10 @@ tried using svm
  
 requirement: (linux)
   - python 3.9
+
+        virtualenv venv
+        source venv/bin/activate
+
   - dlib 19.9 
 
         mkdir lib
